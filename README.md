@@ -1,4 +1,4 @@
-DataBricks - pysoark classes and notebook activities exploring several datasets
+DataBricks - pyspark classes and notebook activities exploring several datasets
 
 SQL - reference
 
