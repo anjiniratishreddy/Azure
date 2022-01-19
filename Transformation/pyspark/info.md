@@ -8,3 +8,6 @@ transformations
   SCD1_Delta_SQL_DW.ipynb - impmlement slowly changing dimension on top of Azure SQL DW
   
   ElectricChargingStats.ipynb - Extract the chargingpoint dataset, transform the data and provide avg charge time, max charge time and round off to 2 decimal places for each                                       charging station per row.
+
+
+  PartitionInADLSg2.ipynb - partition data based on hierachy: Year -> Month -> Day
