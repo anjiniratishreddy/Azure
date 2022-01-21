@@ -1,0 +1,22 @@
+---- The zip is 5GB in size and the average upload speed achieved was 28MBPS ----
+
+Azcopy - command key
+
+/source: --> source path in on-prem
+
+/dest: -->blobURL/containerName
+
+/DestKey --> SAS key (key from access keys in blob storage)
+
+
+
+C:\Program Files (x86)\Microsoft SDKs\Azure\AzCopy>Azcopy /source:D:\Coding\DataSets\JSON\yelp /dest:https://myratishblob.blob.core.windows.net/myratish /DestKey:sU8M0077Nldn3v0+kwLrAcqdUPVsVFu+UCTXYqOEIm9dFgEfmIZbG7mA9xkjFRM8J/rAZDkOY+gHEyy4yy5x1Q==
+[2022-01-21 08:42:06][WARNING] To transfer a directory please specify recursive mode option /S or file pattern option /Pattern. Otherwise all files in the local source directory will be transferred in a non-recursive mode.
+Finished 1 of total 1 file(s).
+[2022-01-21 08:45:21] Transfer summary:
+-----------------
+Total files transferred: 1
+Transfer successfully:   1
+Transfer skipped:        0
+Transfer failed:         0
+Elapsed time:            00.00:03:15
