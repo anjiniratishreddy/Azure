@@ -1,3 +1,5 @@
+---- The file is 5GB in size and of zip in format. Average transfer speed was 26Mbps ----
+
 Azcopy - command key
 
 /source: --> source path in on-prem
