@@ -19,3 +19,4 @@ transformations
   PartitionInADLSg2.ipynb - partition data based on hierachy: Year -> Month -> Day
   
   
+scd2_veggies.ipynb - explores SCD2 implementation on delta lake merge feature
